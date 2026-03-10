@@ -17,4 +17,16 @@ public class Nxr extends Honda {
         this.tipoDeUso = tipoDeUso;
     }
     
+
+    public String toString (){
+
+        return "\nMotoca vrum vrum!"+
+               "\nMarca :"+getMarca()+
+               "\nmodelo :"+getModelo()+
+               "\nano da motoca :"+getAno()+
+               "\ncilindradas :"+getCilindradas()+
+               "\ntipo da moto (asfalto/trilha) :"+getTipoDeUso();
+
+    }
+
 }

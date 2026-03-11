@@ -34,5 +34,4 @@ public class Veiculo {
         this.ano = ano;
     }
 
-
 }

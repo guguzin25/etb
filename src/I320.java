@@ -13,5 +13,11 @@ public class I320 extends Carro {
     public void setPotencia(int potencia) {
         this.potencia = potencia;
     }
+   
     
+    public String toString (){
+
+        return "oi chae";
+    }
+
 }

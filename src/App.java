@@ -4,6 +4,5 @@ public class App {
 
             Nxr motoca = new Nxr("yamaha", "anxr 160", 2019, 12, "asd", "trilha");
             System.out.println(motoca);
-
     }
 }
